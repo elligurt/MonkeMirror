@@ -1,4 +1,4 @@
-# MonkeMirror ![all](https://img.shields.io/github/downloads/elligurt/MonkeMirror/total)
+# MonkeMirror
 A mod that adds a mirror into Stump.
 
 
