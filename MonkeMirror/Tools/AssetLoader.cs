@@ -1,11 +1,12 @@
-﻿using System;
+using System;
 using System.Reflection;
 using BepInEx;
 using UnityEngine;
+using MonkeMirror.Behaviours;
 
 namespace MonkeMirror
 {
-    [BepInPlugin(Constants.GUID, Constants.Name, Constants.Version)] 
+    [BepInPlugin(Constants.GUID, Constants.Name, Constants.Version)]
     public class Plugin : BaseUnityPlugin
     {
         public GameObject MonkeMirror;
@@ -30,10 +31,12 @@ namespace MonkeMirror
                     return;
                 }
 
-                MonkeMirror = Instantiate(InitialiseMonkeMirror("MonkeMirror.Content.mirror").LoadAsset<GameObject>("GorillaMirror"));
-                MonkeMirror.transform.localPosition = new Vector3 (-63.0683f, 12.1292f, - 81.7965f);
-                MonkeMirror.transform.localEulerAngles = new Vector3(0f, 318.4624f, 0f);
-                MonkeMirror.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+                MonkeMirror = Instantiate(InitialiseMonkeMirror("MonkeMirror.Content.mirror").LoadAsset<GameObject>("MonkeMirror"));
+                MonkeMirror.transform.localPosition = new Vector3(-63.1665f, 11.8746f, - 81.880f);
+                MonkeMirror.transform.localEulerAngles = new Vector3(1.2508f, 52.3207f, 1.3364f);
+                MonkeMirror.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+
+                MonkeMirror.AddComponent<MirrorUI>();
             }
             catch (Exception e)
             {
