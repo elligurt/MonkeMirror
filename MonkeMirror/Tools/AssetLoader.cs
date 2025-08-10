@@ -32,9 +32,9 @@ namespace MonkeMirror
                 }
 
                 MonkeMirror = Instantiate(InitialiseMonkeMirror("MonkeMirror.Content.mirror").LoadAsset<GameObject>("MonkeMirror"));
-                MonkeMirror.transform.localPosition = new Vector3(-63.1665f, 11.8746f, - 81.880f);
-                MonkeMirror.transform.localEulerAngles = new Vector3(1.2508f, 52.3207f, 1.3364f);
-                MonkeMirror.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+                MonkeMirror.transform.localPosition = new Vector3(-64.6139f, 11.4219f, - 81.7491f);
+                MonkeMirror.transform.localEulerAngles = new Vector3(0.9453f, 36.3249f, 357.2256f);
+                MonkeMirror.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 
                 MonkeMirror.AddComponent<MirrorUI>();
             }
