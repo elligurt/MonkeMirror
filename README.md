@@ -3,4 +3,4 @@ A mod that adds a mirror into Stump.
 
 
 
-<img width="2048" height="1264" alt="mirror revamp" src="https://github.com/user-attachments/assets/4326e2c6-3a37-4e88-9b42-0081f177b638" />
+<img width="1913" height="999" alt="model revamp again" src="https://github.com/user-attachments/assets/1bb7b8e1-c5c7-48a2-bc62-847dcd4ed987" />
