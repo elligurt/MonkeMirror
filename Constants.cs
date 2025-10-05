@@ -7,6 +7,7 @@
     {
         public const string GUID = "com.elliot.gorillatag.monkemirror";
         public const string Name = "MonkeMirror";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.5";
     }
 }
+
